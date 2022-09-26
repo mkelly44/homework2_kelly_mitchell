@@ -7,9 +7,9 @@ M = 5.97*10**24
 
 h = ((G*M*(T**2)/(4*pi**2))**(1/3)) - R      #altitude formula from part a
 
-h1440 = ((G*M*(86400**2)/(4*pi**2))**(1/3)) - R    #T = 1 Day
-h90 = ((G*M*(5400**2)/(4*pi**2))**(1/3)) - R       #T = 90 Minutes
-h45 = ((G*M*(3600**2)/(4*pi**2))**(1/3)) - R       #T = 45 Minutes
+h1440 = ((G*M*(86400**2)/(4*pi**2))**(1/3)) - R   #T = 1 Day (1440 Minutes)
+h90 = ((G*M*(5400**2)/(4*pi**2))**(1/3)) - R      #T = 90 Minutes
+h45 = ((G*M*(3600**2)/(4*pi**2))**(1/3)) - R      #T = 45 Minutes
 
 # Orbital Periods less than 5063 seconds produce an unphysical altitude which would be inside the radius of the Earth
 
